@@ -1,0 +1,5 @@
+To upgrade UIkit:
+
+* get the latest zip from https://getuikit.com/download
+* cd assets
+* unzip ~/Downloads/uikit-3.5.9.zip 
