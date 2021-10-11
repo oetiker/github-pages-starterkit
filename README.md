@@ -1,15 +1,10 @@
-# Github Pages Starter
+# Github Pages Starter-Kit
 
-## Uikit Setup
+This starter kit contains example pages for several css frameworks, showing how to use them in github pages.
+Note that for uikit the full source code is included, giving your extra configurability options. The other frameworks also come with sass source for their css. So if you are building a project based on one of the other frameworks, make sure to use their respective sass source.
 
-A [UIkit 3](https://getuikit.com/) start up project for [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
+See `index-*.html` for examples of the different css frameworks.
 
-* Recompiles UIkit from SCSS files
-* Full support of UIkit JavaScript plugins
-* Supports all features of Github Pages and Jekyll.
+This setup works out of the box with github pages, but if you want to keep things local, this is also pretty simple. Just install `jekyll` into your local system. Getting jekyll up and running entails installing ruby first. I suggest to use the [Ruby Version Manager (RVM)](https://rvm.io) for that purpose.
 
-See the `index.html` file for inspiration
-
-## Materialize CSS Setup
-
-See the `materialize.html` file for inspiration
+Once ruby is up an running, getting jekyll is as easy as uttering: `gem install bundler jekyll`. See the [jekyll](https://jekyllrb.com) website for details.

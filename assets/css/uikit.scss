@@ -4,15 +4,12 @@
 // $global-color: #000;
 
 // 2. Import default variables and available mixins.
-@import "variables-theme.scss";
+@import "uikit/variables-theme.scss";
 
-@import "mixins-theme.scss";
+@import "uikit/mixins-theme.scss";
 
 // 3. Your custom mixin overwrites.
 // @mixin hook-card() { color: #000; }
 
 // 4. Import UIkit.
-@import "uikit-theme.scss";
-
-// @import "hamburgers/hamburgers.scss";
-
+@import "uikit/uikit-theme.scss";
